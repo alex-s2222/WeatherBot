@@ -7,7 +7,7 @@ from telegram.ext import (
 from telegram import ReplyKeyboardMarkup
 
 from .heandlers.main import main
-from .heandlers.pops import weather
+from .heandlers.weather import weather
 
 
 def run():
